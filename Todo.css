@@ -1,0 +1,178 @@
+body {
+    background-color: gray;
+}
+.head {
+    position: relative;
+    left: 450px;
+    cursor: text;
+}
+#TODO {
+    position: relative;
+    left: 550px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    /* border-radius: 9px; */
+    width: 20%;
+}
+#Add {
+    position: relative;
+    background-color: aqua;
+    height: 5vh;
+    border: 2px solid black;
+    cursor: pointer;
+    left: 559px;
+
+    /* -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;  */
+}
+#Add:hover {
+    filter: brightness(0.8);
+}
+#TodoList {
+    position: relative;
+    left: 550px;
+}
+#Delete {
+    position: relative;
+    background-color: aqua;
+    height: 5vh;
+    border: 2px solid black;
+    cursor: pointer;
+    left: 562px;
+
+    /* -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;  */
+}
+#Delete:hover {
+    filter: brightness(0.8);
+}
+.head {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+  }
+#Add {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+#Delete {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+#Color {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+#Color {
+    position: relative;
+    background-color: aqua;
+    height: 5vh;
+    border: 2px solid black;
+    cursor: pointer;
+    left: 570px;
+}
+#Color:hover {
+    filter: brightness(0.8);
+}
+@media (max-width: 1100px) {
+    .head {
+        left: 350px;
+    }
+    #Add {
+        left: 459px;
+    }
+    #Delete {
+        left: 462px;
+    }
+    #TODO {
+        left: 450px;
+    }
+    #Color {
+        left: 470px;
+    }
+    @media (max-width: 970px) {
+        .head {
+            left: 250px;
+        }
+        #Add {
+            left: 359px;
+        }
+        #Delete {
+            left: 362px;
+        }
+        #TODO {
+            left: 350px;
+        }
+        #Color {
+            left: 370px;
+        }
+    }
+    @media (max-width: 850px) {
+        .head {
+            left: 150px;
+        }
+        #Add {
+            left: 259px;
+        }
+        #Delete {
+            left: 262px;
+        }
+        #TODO {
+            left: 250px;
+        }
+        #Color {
+            left: 270px;
+        }
+    }
+    @media (max-width: 710px) {
+        .head {
+            left: 050px;
+        }
+        #Add {
+            left: 159px;
+        }
+        #Delete {
+            left: 162px;
+        }
+        #TODO {
+            left: 150px;
+        }
+        #Color {
+            left: 170px;
+        }
+    }
+    @media (max-width: 600px) {
+        .head {
+            left: 030px;
+        }
+        #Add {
+            top: 100px;
+            left: 039px;
+        }
+        #Delete {
+            top: 100px;
+            left: 042px;
+        }
+        #TODO {
+            top: 10px;
+            left: 230px;
+            width: 30%;
+        }
+        #Color {
+            top: 100px;
+            left: 050px;
+        }
+    }
+}
